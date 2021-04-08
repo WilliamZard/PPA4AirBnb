@@ -1,0 +1,13 @@
+/*
+ *This class is used to edit the styling of the map buttons depending on the number of properties inside any borough
+ */
+
+/* Redefine base colors */
+
+
+  .map-button{
+	-fx-shape: "M43.30127018922193 0L86.60254037844386 25L86.60254037844386 75L43.30127018922193 100L0 75L0 25Z";
+	-fx-font-size: 8pt;
+
+  }
+  

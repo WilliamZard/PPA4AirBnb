@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=MapPage
+comment0.text=\r\n\ This\ is\ the\ scene\ where\ the\ user\ will\ interact\ with\ the\ map\ of\ London\r\n\r\n\ @author\ Jay\ Vachhani\ \r\n
+comment1.params=stage
+comment1.target=void\ start(javafx.stage.Stage)
+numComments=2

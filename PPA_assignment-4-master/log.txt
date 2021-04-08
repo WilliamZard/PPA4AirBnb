@@ -1,0 +1,1438 @@
+commit 80ebe3f2b4fd610bef2a99300ce56659c99a3294
+Author: Jay <jay.vachhani@outlook.com>
+Date:   Sat Mar 30 13:17:41 2019 +0000
+
+    Clean up of commented old methods in statsList
+
+commit e43221dbe107cba4925ae88cf2be02e969f4fba5
+Author: Jay <jay.vachhani@outlook.com>
+Date:   Sat Mar 30 10:59:00 2019 +0000
+
+    Added class description for statsController
+
+commit 3691e327f57028a6465837719b87a9958af8f146
+Author: Jay <jay.vachhani@outlook.com>
+Date:   Sat Mar 30 10:46:00 2019 +0000
+
+    Improved wording of Map page instructions
+
+commit 79b32e1833647fa9b6b44f64d54bcd77a1cb6d11
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 30 09:32:51 2019 +0000
+
+    fix some stuff
+
+commit 30733339826c7b47850d96e34c1c1997f36fbd87
+Merge: 8b261d2 e8f8fd4
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 30 09:30:21 2019 +0000
+
+    Merge branch 'master' of https://github.kcl.ac.uk/k1890089/PPA_assignemtn-4
+
+commit 8b261d2de7d32b9635a847918a5eae839015f75e
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 30 09:27:37 2019 +0000
+
+    Comments
+
+commit e8f8fd4b47c090c2a510d5c5f7ab6a5d4a696330
+Author: Jay <jay.vachhani@outlook.com>
+Date:   Sat Mar 30 04:57:02 2019 +0000
+
+    updated New pass method
+    
+    Now method can actually accept passwords of length 6 characters and above, before it did not
+
+commit f6412e5dca85b0c823762c53e729262b7cd49e6d
+Author: Jay <jay.vachhani@outlook.com>
+Date:   Sat Mar 30 04:52:02 2019 +0000
+
+    Added comments to mapController
+    
+    also changed chechNeighbourhood method name to checkNeighbourhood for spelling
+
+commit 5185a89e994e11b64e7bff03e9eb37c8b66a66dc
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 30 01:50:45 2019 +0000
+
+    Symbol
+
+commit df10c53e13a7d7a6262714e99a64c931a2c2d1b7
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 30 01:47:12 2019 +0000
+
+    temp filess
+
+commit a67a08ca1e61e3ad3ed3f632942117141d7ccc3c
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 30 00:40:34 2019 +0000
+
+    minor changes
+
+commit e253e85f4971a399422ef2f7f46acd5acaf65880
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 30 00:27:08 2019 +0000
+
+    final changes
+
+commit 5aca3f0fcdfba8ff51b6c12986a78c1bdf14145e
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 29 23:11:13 2019 +0000
+
+    added images
+
+commit 580280743628f673b7734b467945a1772034baa7
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 29 22:37:21 2019 +0000
+
+    Fix filter, Do map colours, fix everything
+
+commit 145866789353ddf376d7fe9d2aaa22442734933c
+Merge: 01415ba 99e3ba0
+Author: Jay <jay.vachhani@outlook.com>
+Date:   Fri Mar 29 19:25:30 2019 +0000
+
+    Merge branch 'master' of https://github.kcl.ac.uk/k1890089/PPA_assignment-4
+
+commit 01415ba4f18e7b266550cd4226d7954db5c7c607
+Author: Jay <jay.vachhani@outlook.com>
+Date:   Fri Mar 29 19:24:48 2019 +0000
+
+    Map List working, Colours tbc
+
+commit 99e3ba0d79c456472af99a46a3cb3995f16c9388
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 16:13:48 2019 +0000
+
+    idk what is that
+
+commit ef9af8a06328a124dc262ee099a621aed59bc7ed
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 16:06:07 2019 +0000
+
+    c
+
+commit 1ef258e4686081e530c895800e1a839d54460802
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 16:06:03 2019 +0000
+
+    add commenting
+
+commit 8ef664e2cebc01c4537cc15645757f6a7696072a
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 15:40:58 2019 +0000
+
+    add message
+
+commit e77b7e70c3dc4131b851c38f9c3b5e6915f444b0
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 15:38:01 2019 +0000
+
+    finalised Filters Pop up
+
+commit dc89ea75df4cd0164ecd9d5f632baca5d2a961e3
+Merge: 795c34c d825cd5
+Author: Jay <jay.vachhani@outlook.com>
+Date:   Fri Mar 29 15:22:32 2019 +0000
+
+    Merge branch 'master' of https://github.kcl.ac.uk/k1890089/PPA_assignment-4
+
+commit 795c34c2c0283e32fce4e7f0789a5a00f9e4f9eb
+Author: Jay <jay.vachhani@outlook.com>
+Date:   Fri Mar 29 15:15:59 2019 +0000
+
+    h
+
+commit d825cd5e619de72a44e1dda49803bde7651108a5
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 15:14:59 2019 +0000
+
+    filtered pop up added
+
+commit 4dbe62b79b931eb43a5643ce9b2025b6e519271f
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 15:08:59 2019 +0000
+
+    s
+
+commit 2c33bd84489626e67066f475188ecf3115523cef
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 14:46:28 2019 +0000
+
+    add filters window
+
+commit 3d148ab569511a8c19691a7a807d731f355505ce
+Merge: 317d9de c133651
+Author: Jay <jay.vachhani@outlook.com>
+Date:   Fri Mar 29 11:18:21 2019 +0000
+
+    Merge branch 'master' of https://github.kcl.ac.uk/k1890089/PPA_assignment-4
+
+commit c133651c045087cd2f03e1c40de7efa1dd03b036
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 29 11:16:55 2019 +0000
+
+    mysql
+
+commit 317d9de191480f6cc9621f11693e6d2de12a42ad
+Merge: c8220e7 3ab0beb
+Author: Jay <jay.vachhani@outlook.com>
+Date:   Fri Mar 29 11:12:21 2019 +0000
+
+    Merge branch 'master' of https://github.kcl.ac.uk/k1890089/PPA_assignment-4
+
+commit c8220e7616fcc1f52becd9538d9ab959eacd85f2
+Author: Jay <jay.vachhani@outlook.com>
+Date:   Fri Mar 29 11:08:34 2019 +0000
+
+    Merge branch 'master' of https://github.kcl.ac.uk/k1890089/PPA_assignment-4
+
+commit 3ab0bebc5bd53338b2998b27278e8baabf3a99e1
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 29 11:06:09 2019 +0000
+
+    fix master
+
+commit 036c95f67f27dd573abe097bd1d4eadfc662f1b5
+Merge: c042cc1 451d53a
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 29 11:05:40 2019 +0000
+
+    Merge branch 'master' of https://github.kcl.ac.uk/k1890089/PPA_assignemtn-4
+
+commit c042cc19b4a79f2f899dfd216daa04b84bd288a0
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 29 11:03:34 2019 +0000
+
+    update
+
+commit 451d53afce529564885ca45fc42d1a7b5a9d81d0
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 10:54:34 2019 +0000
+
+    wtf
+
+commit 395da68e9139d5152bb5523c659a2c77975fe679
+Author: Jay <jay.vachhani@outlook.com>
+Date:   Fri Mar 29 10:52:52 2019 +0000
+
+    map button
+
+commit 9fccd2fab50881bb5d37c8ef3a78ffbd42b24d88
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 10:51:59 2019 +0000
+
+    REMOVE DOUBLE WORK FROM KENNY
+
+commit 30db728d8c654f8f3b7a5b4b99d9b852e11cada0
+Merge: 43bcd03 c2d681c
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 10:23:53 2019 +0000
+
+    Merge branch 'master' into userGUI
+
+commit 43bcd034c13c880f1fa990bd5331bc4c145ac461
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 10:22:48 2019 +0000
+
+    d
+
+commit c2d681c9002fd30d03e37a8c72f3a56f7ab6cfaf
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 29 10:06:04 2019 +0000
+
+    clean up
+
+commit 41c49bf7282cfeb6c9b348ba241a93b669839c69
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 09:58:04 2019 +0000
+
+    j
+
+commit aa4c3829afacb907b8a3aef729c512aa024ff39a
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 09:34:55 2019 +0000
+
+    as
+
+commit d98f54da2765f9551c0968f82c9ec3375f1eef5a
+Merge: 16a79c5 96576c5
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 29 09:34:50 2019 +0000
+
+    Merge branch 'master' into userGUI
+
+commit 9e457f248db8cd4161b5faf81902ea81bb90e71e
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 29 01:47:50 2019 +0000
+
+    fix some stuff
+
+commit 58395623efb2c28caf5eb4616dc64110bfe6f25c
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 29 01:33:28 2019 +0000
+
+    fav stuff
+
+commit 96576c5c6199ca838e40e122878df66f0e8e54f8
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 28 17:45:51 2019 +0000
+
+    fix push
+
+commit 2911c70b83dab3503bc53daf4947bb33de1b3f23
+Merge: 49a03a7 1aa9a96
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 28 17:44:27 2019 +0000
+
+    Merge branch 'master' of https://github.kcl.ac.uk/k1890089/PPA_assignemtn-4
+
+commit 49a03a72470825da79b5b4541f307d3f87450399
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 28 17:44:21 2019 +0000
+
+    Remove print statement
+
+commit 1aa9a96960d4ca1616bbf7c2f301a465b5a4c95f
+Author: Zard, William (k1759509) <william.zard@kcl.ac.uk>
+Date:   Thu Mar 28 17:37:47 2019 +0000
+
+    Add files via upload
+    
+    code for the bar chart
+
+commit 88cf2a94814029938e2a3dd3b2603abc686df6cd
+Author: Zard, William (k1759509) <william.zard@kcl.ac.uk>
+Date:   Thu Mar 28 17:37:14 2019 +0000
+
+    Update StatsList.java
+    
+    code for the bar chart added
+
+commit 96590a1aebda9cd73f2fbef2ec4284d4c124e4cf
+Author: Zard, William (k1759509) <william.zard@kcl.ac.uk>
+Date:   Thu Mar 28 17:35:39 2019 +0000
+
+    Update statsView.fxml
+    
+    added graph button
+
+commit b1277a1311e7f38c8e330f3128d78b8e845dd801
+Author: Zard, William (k1759509) <william.zard@kcl.ac.uk>
+Date:   Thu Mar 28 17:35:09 2019 +0000
+
+    Update statsController.java
+    
+    added graph button
+
+commit b58701599b710b0cd14e72f649c4e2502b3d557d
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 28 15:56:00 2019 +0000
+
+    minor change
+
+commit 00d8df725442371ec359df72d9bdd728a79b3476
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 28 15:55:29 2019 +0000
+
+    added mysql query to get amount of properties in each neighbourhood
+
+commit 1554905ac9631fb94d9732168e68dfe610181c49
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 28 15:38:40 2019 +0000
+
+    fix button spacing
+
+commit 61227b4e76321aeeda1631722c7014c6181174aa
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 28 15:13:21 2019 +0000
+
+    fix buttons
+
+commit 16a79c55bc84f9e11b6bbe02f3cc7d9ff03cad9c
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 28 13:34:54 2019 +0000
+
+    s
+
+commit aae0f2027e897bf5cdeb482f57667940b7a7660b
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 28 13:33:35 2019 +0000
+
+    a
+
+commit 72a403d573b67ccf3a5196c331f6d31881bcf7d5
+Merge: 9c040c8 cb00f0b
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 28 13:26:45 2019 +0000
+
+    Merge branch 'master' into userGUI
+
+commit 9c040c8accd443f909050467d87754bcc1c053a9
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 28 13:22:26 2019 +0000
+
+    c
+
+commit cb00f0b1adf8de3b2c2b9f455da9ebc603fb4d65
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 28 10:45:13 2019 +0000
+
+    fix property list
+
+commit 217bc1e36d644145f094a3784f41624059af4b67
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Wed Mar 27 20:28:07 2019 +0000
+
+    Fixed all account stuff. Details get updated when user logs in
+
+commit 947b52aa7a79b74ba12a0dee3a071b534baf239d
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Wed Mar 27 20:06:11 2019 +0000
+
+    Fixed master. Added all button functionality. Added user icon
+
+commit a9abdfda1a93e3a35c893ea2623e64a38f464ae9
+Merge: b67f750 c45dbdd
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Wed Mar 27 20:00:59 2019 +0000
+
+    Merge branch 'master' of https://github.kcl.ac.uk/k1890089/PPA_assignemtn-4
+
+commit b67f7506240f7a403b0da3f43dc93e0be3ffffec
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Wed Mar 27 19:57:37 2019 +0000
+
+    add image and fix buttons
+
+commit c45dbdde77335794b559cbdb577bfa1da647422e
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Wed Mar 27 19:46:08 2019 +0000
+
+    add images
+
+commit 4f76a1e675913e42bd574f81d516882949cc578a
+Author: Zard <k1759509@nmscde004038.nms.kcl.ac.uk>
+Date:   Wed Mar 27 18:16:06 2019 +0000
+
+    stats panel basically working could add charts
+
+commit a1c4d0523ba09643a5f4212cf501318c2480b62f
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Wed Mar 27 14:47:26 2019 +0000
+
+    Comment everything
+
+commit 421ef70b411d43646d808494596ae1df102f2261
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Wed Mar 27 14:15:31 2019 +0000
+
+    Fix stats window and fully integrate it into the menu
+
+commit bd73aab896276705d8c0ffe9491f4dc8871b6f39
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Wed Mar 27 13:48:05 2019 +0000
+
+    Fix arrows
+
+commit 86e0f6c6f302eacf53a95172fb0aa528c11a9842
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Wed Mar 27 12:11:10 2019 +0000
+
+    s
+
+commit 1243a7de33178db325df0f8f946b8a8ff712d2f4
+Merge: 76ec2d4 46a042d
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Wed Mar 27 12:03:01 2019 +0000
+
+    Merge branch 'master' into userGUI
+
+commit 76ec2d4396d5845152725bf4c43e2899a03d4086
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Wed Mar 27 12:01:06 2019 +0000
+
+    a
+
+commit ac996eb2295d7fa0c4cde5c1c342faef013f0059
+Merge: 642c90b 3182708
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Wed Mar 27 11:57:59 2019 +0000
+
+    Merge branch 'master' into userGUI
+
+commit 642c90bd76bedd472b9bbca7776a02ba3bf36f17
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Wed Mar 27 11:57:02 2019 +0000
+
+    a
+
+commit 46a042d0ec2a08785a4e31fa4b3ee525dbafa4dc
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Wed Mar 27 11:53:09 2019 +0000
+
+    fixed table and button color
+
+commit 31827085e72927670536b0cd80300158dc7fc91f
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Tue Mar 26 22:34:18 2019 +0000
+
+    make main interface persistent
+
+commit 46279b4eba03a0677257542d2667540a79898c4c
+Merge: e0df8ee c655d0b
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Tue Mar 26 01:50:03 2019 +0000
+
+    Merge branch 'master' into userGUI
+
+commit e0df8ee3518b04f040f5ffe644a94f99b7219fce
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Tue Mar 26 01:43:26 2019 +0000
+
+    c
+
+commit c655d0be2cd3a338c6d33c09da04a6fa40385b55
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Tue Mar 26 00:41:07 2019 +0000
+
+    css edit for checkbox
+
+commit 908c8613cc81007730b9fc6dee6decd7960989bd
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Tue Mar 26 00:26:04 2019 +0000
+
+    add some comments to scraper class
+
+commit 35cf030609598e12673514af36c67453ed9d1d0d
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Tue Mar 26 00:20:39 2019 +0000
+
+    Added imageScaperr
+
+commit 3cd14d0e33c2e609531ef68c78d0d870cf80af7e
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 25 23:08:23 2019 +0000
+
+    added ID for map
+
+commit a73126306f7c5b52af98b2da3e72292e2ea3e9fa
+Merge: 9f049e4 c654f61
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 25 23:07:25 2019 +0000
+
+    Merge branch 'master' of https://github.kcl.ac.uk/k1890089/PPA_assignemtn-4
+
+commit 9f049e42c4978c90f12fc45b32877b50d43e5e44
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 25 23:06:57 2019 +0000
+
+    Added account button
+
+commit c654f614e3361e8cf9fdac021f7399af20797d0c
+Author: Vachhani, Jay (k1890728) <jay.vachhani@kcl.ac.uk>
+Date:   Mon Mar 25 19:04:27 2019 +0000
+
+    added IDs to buttons
+    
+    all IDs are lowercase
+
+commit d2769c499703bd4121b1292948c92286265e6fd3
+Author: Vachhani, Jay (k1890728) <jay.vachhani@kcl.ac.uk>
+Date:   Mon Mar 25 19:02:32 2019 +0000
+
+    added IDs to each button
+    
+    all IDs lowercase
+
+commit 36abe88e952cb03b806dfd22772ec722bf821ac5
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Mon Mar 25 17:27:30 2019 +0000
+
+    latest
+
+commit d0c130e932fa86c0faa19badda06ea7f1b3cd0e8
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Mon Mar 25 17:10:44 2019 +0000
+
+    windows connected together
+
+commit f1a1478af2c568abd1fcf4307ca905c5c437dc69
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Mon Mar 25 16:38:59 2019 +0000
+
+    s
+
+commit eb4902327eaa545ceb17d71dab6f3d5c13672612
+Merge: 25a8fa2 6e8a1c2
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Mon Mar 25 16:38:54 2019 +0000
+
+    Merge branch 'master' into userGUI
+
+commit 6e8a1c2ef00f28963f373c329d03609954becf70
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 25 16:32:39 2019 +0000
+
+    update master from google maps
+
+commit b3617167f149b9b918ac5bd376e87177d0ca2918
+Merge: 4be0699 3697326
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 25 16:31:51 2019 +0000
+
+    Merge branch 'GoogleMaps'
+
+commit 369732676e46a749fcc211bfbfd267741ebd8fc4
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 25 16:29:30 2019 +0000
+
+    added map to GUI
+
+commit ada18bda7fb812085171107d6a3b527fb1e36b45
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 25 15:49:10 2019 +0000
+
+    Revert "fix min max"
+    
+    This reverts commit 25be79239629f96aeb35499536c87033b352c2a1.
+
+commit 4be06997f28d5571ed3ed56fd28112f64a9f73f0
+Author: Vachhani, Jay (k1890728) <jay.vachhani@kcl.ac.uk>
+Date:   Mon Mar 25 15:42:55 2019 +0000
+
+    Added map button style
+
+commit 25a8fa2bf49fc2cd79dfbba3950306f929c3665e
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Mon Mar 25 15:22:58 2019 +0000
+
+    ...
+
+commit 25be79239629f96aeb35499536c87033b352c2a1
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 25 15:22:20 2019 +0000
+
+    fix min max
+
+commit 7f0edfd94d1ea02ab1d925432cffbefc64993981
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 25 15:05:33 2019 +0000
+
+    Merge branch 'userGUI' into GoogleMaps
+
+commit 51605dee0a04c4d30566ef243412570a1217bc0a
+Merge: 0af86a3 a1b2804
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 25 15:04:47 2019 +0000
+
+    Merge branch 'userGUI' into GoogleMaps
+
+commit 0af86a38c758ac729410cfe7dd71e650ec24f2a5
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 25 14:57:54 2019 +0000
+
+    maininterface
+
+commit 400cae1029b38bbd9964fbe73d3979296bee66b5
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Mon Mar 25 14:57:03 2019 +0000
+
+    s
+
+commit 97b32025be12d1e0a0d5610e650d8ce6a7569fea
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Mon Mar 25 14:56:23 2019 +0000
+
+    wtf?
+
+commit 2a1170186c45f03bd7d2843cf820663bf4cc403e
+Merge: c6f1aaf 825cfea
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Mon Mar 25 14:41:30 2019 +0000
+
+    Merge branch 'GoogleMaps' into userGUI
+
+commit 825cfea3e1ffca0ef468a867388a0b5612318248
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 25 14:37:27 2019 +0000
+
+    smallPropertyView
+
+commit c6f1aafe802638562e57939dbcfc694b35dc9a07
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Mon Mar 25 14:24:17 2019 +0000
+
+    MYSQL add/remove favourite method
+    
+    Added global variable to store the current user logged in.
+
+commit a47a5f650321a841212db7c00e166813d4f050e7
+Author: Vachhani, Jay (k1890728) <jay.vachhani@kcl.ac.uk>
+Date:   Mon Mar 25 14:19:47 2019 +0000
+
+    Scene built
+
+commit 956e5f009ddb754ef1357d26e6862af9a54596ad
+Author: Vachhani, Jay (k1890728) <jay.vachhani@kcl.ac.uk>
+Date:   Mon Mar 25 14:19:18 2019 +0000
+
+    Incorrect title bar, replaced
+
+commit 9ce02ce7d6810f715ac92267d228182f0e47b024
+Author: Vachhani, Jay (k1890728) <jay.vachhani@kcl.ac.uk>
+Date:   Mon Mar 25 14:17:50 2019 +0000
+
+    Button spacing fixed
+
+commit ee7df2791f092d8f8687dfadafd3e3b4c50456f4
+Author: Vachhani, Jay (k1890728) <jay.vachhani@kcl.ac.uk>
+Date:   Mon Mar 25 14:17:30 2019 +0000
+
+    Error in Button spacing, replaced with new file
+
+commit 0229e18ca80b09de0e95bcf4d4f417cbd83750ac
+Author: Vachhani, Jay (k1890728) <jay.vachhani@kcl.ac.uk>
+Date:   Mon Mar 25 14:10:33 2019 +0000
+
+    MapPage class includes Map panel
+
+commit 8a613481377ea874a5fb0a6555e0f4da0d6d41a6
+Author: Vachhani, Jay (k1890728) <jay.vachhani@kcl.ac.uk>
+Date:   Mon Mar 25 14:09:39 2019 +0000
+
+    Fxml file for Map Panel
+    
+    All buttons laid out with functionality yet to implement
+
+commit e13eb8ca7dd3809708cc94ff49c21d151c01f08c
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Sun Mar 24 19:27:41 2019 +0000
+
+    some checks on file type and size
+
+commit bb34dbc9a1a39ef9c3171adb0be0dabfae7b2bb5
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Sun Mar 24 19:13:28 2019 +0000
+
+    Acoount page finished
+    
+    everything is implemented
+
+commit 788244bccd50a93b1ac8a85b22e987d3540e9aaf
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 23 21:05:52 2019 +0000
+
+    Open window from property Listing
+
+commit a9b15acb568c72b04d40ab065d4bdaf9f648c079
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 23 19:17:52 2019 +0000
+
+    property viewer with google maps
+
+commit c2330c9d3dc66a3883a062afe7aa7b394a6763bc
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 23 16:25:18 2019 +0000
+
+    trying to implement google maps
+
+commit 92a1d0cbcf955cf41aa2bc0734f62833d62d9da8
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 22 11:51:50 2019 +0000
+
+    fix problem
+
+commit 7c67b4cc6656ad107ceff9ddc866bf3eb5e732d3
+Merge: 7502304 4523234
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 22 11:45:38 2019 +0000
+
+    Merge branch 'master' into userGUI
+
+commit 45232346bb65b44544997e83da7f76dd4d870c9a
+Merge: 6e54d2e 8ffbb4e
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 22 11:40:14 2019 +0000
+
+    Merge branch 'master' of https://github.kcl.ac.uk/k1890089/PPA_assignment-4
+
+commit 6e54d2e9fffda8d04f172e832889e1106dad71c7
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 22 11:40:01 2019 +0000
+
+    MAJOR PROBLEM FIX
+
+commit 8ffbb4ea47f9f1cacf148bb4743339e74cc955fd
+Merge: 3fbaaa1 626db83
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 11:35:34 2019 +0000
+
+    Merge branch 'XMLMaster'
+
+commit 626db83e750daa866b85321f4b59930cda0a0184
+Merge: e827134 055b4a4
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 11:35:00 2019 +0000
+
+    Merge branch 'XMLMaster' of https://github.kcl.ac.uk/k1890089/PPA_assignemtn-4 into XMLMaster
+
+commit e827134feb78f744e878f2d66585f8a27434d1a3
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 11:34:24 2019 +0000
+
+    sup
+
+commit 3fbaaa1735b466793b57de0d3b1875e360b16104
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 11:27:38 2019 +0000
+
+    maybe fix
+
+commit 98665af44259905be8fce540baec83ac18ee08f9
+Merge: 4998ae5 78150fe
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 11:26:22 2019 +0000
+
+    Merge branch 'master' of https://github.kcl.ac.uk/k1890089/PPA_assignemtn-4
+
+commit 4998ae54608468acfd91e784f842a8f97cb073b2
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 11:25:44 2019 +0000
+
+    Revert "MainInterface 2 With FXML"
+    
+    This reverts commit a747f6800d2368f29a5c41cf39ddfdb63414329c.
+
+commit 78150feddce5fe1aec57e9501271911e1e8f72b4
+Merge: c0c3967 f61bbad
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 11:18:25 2019 +0000
+
+    Merge branch 'XMLMaster'
+
+commit f61bbad4093dc511f90584cd55cf69c65a1f48f2
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 11:18:13 2019 +0000
+
+    fix
+
+commit 055b4a49663234d3f3596de4ff9dbf406444ca37
+Merge: 7ee5239 3b69885
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 11:12:36 2019 +0000
+
+    Merge branch 'XMLMaster' of https://github.kcl.ac.uk/k1890089/PPA_assignemtn-4 into XMLMaster
+
+commit 7ee5239e0cf15239b8dc88b707db841e4098fdce
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 11:12:23 2019 +0000
+
+    fix
+
+commit 3b698850ae561f9d41513804c588003ef4b72857
+Merge: 9da999e 1fc4e18
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 11:05:38 2019 +0000
+
+    Merge branch 'XMLMaster' of https://github.kcl.ac.uk/k1890089/PPA_assignemtn-4 into XMLMaster
+
+commit 9da999e4aa7c3e7fb13440b4d4c338241b0ef3d0
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 11:05:23 2019 +0000
+
+    fixed branch
+
+commit c0c3967e3a5f92f5f07e80c5a83c3e24c6b9e68f
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 10:54:59 2019 +0000
+
+    fix should be working
+
+commit 1314073adbaa47780ee8eb0e74ee8bcbbd3c7adc
+Merge: 49ec7f0 f0bebc6
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 10:54:11 2019 +0000
+
+    Merge branch 'master' of https://github.kcl.ac.uk/k1890089/PPA_assignemtn-4
+
+commit 49ec7f006cf51b8b4a0992a503d8a044b2e85d3f
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 10:52:13 2019 +0000
+
+    remove all files
+
+commit 74c9bebe23e6ffa9d0a96a23fc1d10c11e51cf5c
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 10:51:40 2019 +0000
+
+    changes
+
+commit 7502304e6feb2772d393f47f3e16784954199f9a
+Merge: afb4f40 daf0cd2
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Fri Mar 22 10:50:20 2019 +0000
+
+    Merge remote-tracking branch 'origin/XMLMaster' into userGUI
+
+commit f0bebc6d946cb303ca175e81095f40363abefb88
+Merge: a98bedd 1fc4e18
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 10:49:43 2019 +0000
+
+    Merge branch 'XMLMaster'
+
+commit 1fc4e18951d84360fa58f8cd5751c37147b53d2f
+Merge: 8191fd5 daf0cd2
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 10:49:08 2019 +0000
+
+    Merge branch 'XMLMaster' of https://github.kcl.ac.uk/k1890089/PPA_assignemtn-4 into XMLMaster
+
+commit 8191fd5580bbddbca11411efec800aef70a19e55
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 10:48:56 2019 +0000
+
+    fix
+
+commit a98bedd6c5d938ddfe4a7e879662daea6ea54a0a
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 22 10:47:12 2019 +0000
+
+    Revert "Revert "Revert "Move old files to folder and combined login screen with main interface"""
+    
+    This reverts commit 2c29ed16b8ad49a09b1cd4f32c09daf182db79c0.
+
+commit 1a5bed75bf848b6c5190685769c5620d1e86124d
+Merge: d8d62b9 daf0cd2
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 20:56:24 2019 +0000
+
+    Merge branch 'XMLMaster'
+
+commit daf0cd266fb6df1be808a161902578106559d7d9
+Merge: e8ae735 2c29ed1
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 20:55:59 2019 +0000
+
+    Merge branch 'XMLMaster' of https://github.kcl.ac.uk/k1890089/PPA_assignemtn-4 into XMLMaster
+
+commit e8ae73504d23d4b3d5ca9a4f8819034b9be1c1ac
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 20:55:29 2019 +0000
+
+    Fixed master 3rd time
+
+commit d8d62b9de564a5e361a0b8feff2174ea72fb63a4
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 20:39:42 2019 +0000
+
+    Fix master again
+
+commit d31e53586634d6b683cb64ed5caf6befbe2ee274
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 20:37:56 2019 +0000
+
+    fix master
+
+commit f764c1aa1197d69872ddb2531ec09c9a4204966b
+Merge: 718675d d6d38ef
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 20:37:26 2019 +0000
+
+    Merge branch 'master' of https://github.kcl.ac.uk/k1890089/PPA_assignemtn-4
+
+commit 718675d666393a7a4412b20e15682852b38dd54d
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 20:36:55 2019 +0000
+
+    fix master
+
+commit d6d38ef23e97bc7965eb2425d4f7a2606e067458
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 20:34:21 2019 +0000
+
+    d
+
+commit afb4f402844785173c468543e660b4a180f60842
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 20:27:27 2019 +0000
+
+    s
+
+commit 93797a05c2905af376db1cefd59c6978951c95eb
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 20:03:08 2019 +0000
+
+    m
+
+commit 128a7dc84bd0b118f6cbdae228b9621d059f722e
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 20:02:37 2019 +0000
+
+    v
+
+commit 824b18aeaa5ffb6acb77b749c1da817a849ac7d7
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 19:54:15 2019 +0000
+
+    general file system update
+
+commit b5765ca28bf04f040d0492e4bd22769c8881063d
+Merge: 4aa98e8 c89d836
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 19:54:02 2019 +0000
+
+    Merge branch 'userGUI'
+
+commit c89d836ee213fa4d6bc72ac28e603f47b14e12aa
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 19:52:41 2019 +0000
+
+    better file organisation
+
+commit 6abc3149fe1ff131c80efde7b448b308d507f385
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 19:31:37 2019 +0000
+
+    filesystem structure fixed, load app when log in
+
+commit 4aa98e8a1312e53dc01692da0f8326c034c8009b
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 19:16:06 2019 +0000
+
+    fix error
+
+commit 190f4666932be0847bcd6bdaf6eefc0d2e3e0ba4
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 19:14:45 2019 +0000
+
+    e
+
+commit 0c6c87f5554c1640443d67164ec9b061db8d97da
+Merge: 720b56b 2c29ed1
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 19:11:33 2019 +0000
+
+    Merge remote-tracking branch 'origin/XMLMaster' into userGUI
+
+commit 2c29ed16b8ad49a09b1cd4f32c09daf182db79c0
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 19:08:55 2019 +0000
+
+    Revert "Revert "Move old files to folder and combined login screen with main interface""
+    
+    This reverts commit ae38200ca6fb6f69ccb4f2d31ba038f58cde5af4.
+
+commit 1875023e11490221291be79f5a79bd924c2022c7
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 18:33:24 2019 +0000
+
+    Revert "Move old files to folder and combined login screen with main interface"
+    
+    This reverts commit a3a6d2d1f0a67f60faed6bfc57f5fd853c766ffb.
+
+commit 720b56b2a5684af093b5abc9c0e5568bcff5fa2d
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 18:31:15 2019 +0000
+
+    a
+
+commit a1b280413a043f7ceebbf90f8b9be85553f5bdfe
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 18:30:20 2019 +0000
+
+    Revert "Revert "Move old files to folder and combined login screen with main interface""
+    
+    This reverts commit ae38200ca6fb6f69ccb4f2d31ba038f58cde5af4.
+
+commit fc46a5d69fee4d251d05f13cef95b60b76547fc7
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 18:29:40 2019 +0000
+
+    Revert "Revert "Revert "Move old files to folder and combined login screen with main interface"""
+    
+    This reverts commit dc97150424bc2e4f9cc74ebe327b02c8f4ac496f.
+
+commit dc97150424bc2e4f9cc74ebe327b02c8f4ac496f
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 18:29:10 2019 +0000
+
+    Revert "Revert "Move old files to folder and combined login screen with main interface""
+    
+    This reverts commit ae38200ca6fb6f69ccb4f2d31ba038f58cde5af4.
+
+commit ae38200ca6fb6f69ccb4f2d31ba038f58cde5af4
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 18:26:52 2019 +0000
+
+    Revert "Move old files to folder and combined login screen with main interface"
+    
+    This reverts commit a3a6d2d1f0a67f60faed6bfc57f5fd853c766ffb.
+
+commit a3a6d2d1f0a67f60faed6bfc57f5fd853c766ffb
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 18:22:58 2019 +0000
+
+    Move old files to folder and combined login screen with main interface
+
+commit 78f3e9bf36e66c366a96dfc8b2395c90a1938f45
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 18:19:51 2019 +0000
+
+    commenting
+
+commit ff2fb82a530748ed57ea7a2297fad9478475d3bc
+Merge: c7dffcd 0a085e8
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 18:07:15 2019 +0000
+
+    Merge branch 'userGUI' into XMLMaster
+
+commit c7dffcd76e7b9805119b83c02f8f3d73fb37ee81
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 17:58:32 2019 +0000
+
+    organize old files
+
+commit 4750992b96ea43d930e31667849a7bb6dad84c02
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Thu Mar 21 17:55:17 2019 +0000
+
+    initial translation to XML
+
+commit 0a085e8ec67c4a7e13b2b0863ad1227febce875e
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 17:38:59 2019 +0000
+
+    small alert update
+
+commit 574bb695686dc7e8a851babeab7b1514c2f8b354
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 17:21:08 2019 +0000
+
+    Welcome page GUI finished
+
+commit 424cd38ee54f6dda80b568efb48575c754d3c6fe
+Merge: beca5dc a747f68
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Thu Mar 21 15:20:46 2019 +0000
+
+    Merge branch 'master' into userGUI
+
+commit beca5dcd443123b7529678e36f8e15af5a4e7b01
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Wed Mar 20 19:11:28 2019 +0000
+
+    small changes on the GUI
+
+commit a747f6800d2368f29a5c41cf39ddfdb63414329c
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Tue Mar 19 22:59:12 2019 +0000
+
+    MainInterface 2 With FXML
+    
+    Translated maininterface to FXML
+
+commit 9f4be2d70f4236a5c1de44c99bdeec5dd5cc4590
+Merge: 64ac595 51bb8b8
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Tue Mar 19 17:11:02 2019 +0000
+
+    Merge branch 'statnnew' into userGUI
+
+commit 64ac5955ac326e64f876e22561b302568828abff
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Tue Mar 19 17:07:40 2019 +0000
+
+    k
+
+commit 51bb8b833eea443b415bada0dbae5aaf1bd20cbc
+Author: Zard <k1759509@nmscde004145.nms.kcl.ac.uk>
+Date:   Tue Mar 19 17:06:42 2019 +0000
+
+    Stats fully work (add 4 more)
+
+commit c6bcf64083edd279aaab2a90edd5677685d29464
+Merge: 789ee24 7db7c5b
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Tue Mar 19 16:58:13 2019 +0000
+
+    Merge branch 'statnnew' into userGUI
+
+commit 789ee242a706b83ee0deee75ca32533a2d80ed59
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Tue Mar 19 16:56:58 2019 +0000
+
+    try to make user GUI
+
+commit 7db7c5babc3e9139a1b42b8a7d2b19153ee6d95e
+Author: Zard <k1759509@nmscde004145.nms.kcl.ac.uk>
+Date:   Tue Mar 19 15:28:07 2019 +0000
+
+    Stats fully work (add 4 more)
+
+commit ce7920ea805f2e5f779e56c1e2dc5a8ed7f6fbde
+Author: Zard <k1759509@nmscde004145.nms.kcl.ac.uk>
+Date:   Tue Mar 19 14:49:38 2019 +0000
+
+    Stats fully work
+
+commit 5b6969579d9446af9634913a0ccab4ae7bf06bc9
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Tue Mar 19 14:11:30 2019 +0000
+
+    working master delete folder inside
+
+commit e668bc5c6d298e1183b69db0de7b4f171552cb99
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Tue Mar 19 13:51:40 2019 +0000
+
+    some button stuff
+
+commit 3e46041b44f1c4dbcd329d5b78fe7b5c5f1d7e6c
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 18 15:45:39 2019 +0000
+
+    Integrated stats to GUI
+
+commit b9c4d05804009f41d8a7278c2bf32c5973467f46
+Merge: 5e4f0a4 9fd5d19
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 18 15:27:34 2019 +0000
+
+    Merge remote-tracking branch 'origin/Statistics(new)' into propertyView
+
+commit 5e4f0a495e1493dc6fc81d7f82a6d0a1b8aa1b8b
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 18 15:03:35 2019 +0000
+
+    Git Commit fix
+
+commit eb633222bb723a3f33b5af20299659ef8035dfb9
+Merge: 1319045 86f7974
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 18 14:51:55 2019 +0000
+
+    Merge branch 'propertyView' of https://github.kcl.ac.uk/k1890089/PPA_assignemtn-4 into propertyView
+
+commit 13190451f6e6721674790f5ab5cec45f5b7b17d5
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 18 14:49:35 2019 +0000
+
+    dark theme
+
+commit 9fd5d19c6b4a3e791b5de5a508750e3e713af87a
+Author: Zard, William (k1759509) <william.zard@kcl.ac.uk>
+Date:   Mon Mar 18 14:45:27 2019 +0000
+
+    Add files via upload
+
+commit 7b3cc0f88b959441c7826d7fc913b614d99c6df5
+Author: Zard, William (k1759509) <william.zard@kcl.ac.uk>
+Date:   Mon Mar 18 14:44:21 2019 +0000
+
+    Add files via upload
+
+commit 86f797438bbceb3e28560987c035e448beb27293
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Tue Mar 12 12:12:37 2019 +0000
+
+    small fixes
+
+commit d75ca4e2de65d441406015610eda524707cd9507
+Author: ivan-ivanovv <47433973+ivan-ivanovv@users.noreply.github.com>
+Date:   Tue Mar 12 11:58:58 2019 +0000
+
+    commit
+
+commit 248c7f2f8329d4d6d5b34870bcba5672a881358f
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 11 18:10:03 2019 +0000
+
+    Added Ivans's load from database
+    
+    Currently only the Property list table is being loaded from the database
+
+commit afe40312a8cb5e31843a795bfe0da7b2f128d5b3
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sun Mar 10 11:41:07 2019 +0000
+
+    Done welcome page logic
+
+commit 49eb610f7724bca2433dcc55d768b793cb489c38
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 9 14:57:26 2019 +0000
+
+    Only Load data once
+    
+    Increases the speed of the program
+
+commit c3ec5e5667dd40553bd5c11c0292b2ce206bef2f
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 9 14:36:45 2019 +0000
+
+    Added property viewer
+
+commit da32da7cd9f465e2733e1c40d011bee00a415349
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 9 13:09:40 2019 +0000
+
+    Initial Class set up for property viewer window
+
+commit 28ecaffafe070cd851666c59e071ae8d212e0175
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 9 12:38:56 2019 +0000
+
+    Added table. Merged with master
+
+commit 6a3387a05d800f4413412f6a5a8d0c9b5232f0d9
+Merge: 5b980fe c81042c
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 9 12:38:33 2019 +0000
+
+    Merge branch 'ListView'
+
+commit c81042c9dcbf18a763ceb0b26146e2dbb97a33fb
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Sat Mar 9 12:36:17 2019 +0000
+
+    Created a TableView
+    
+    Table view can sort information. I have also added buttons (no functionality yet) that can be used to view a specific property or add a property to favorites
+
+commit 5b980febc99532259b36d6ae65d795e6b5f1466f
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 8 18:13:25 2019 +0000
+
+    Added propertyList
+
+commit f850921604a3e8385ad8d81041332c62f2928d42
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 8 18:06:24 2019 +0000
+
+    List Display of all properties
+
+commit f3dd1dcf31e02c0842905910175aeded847cfa60
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 8 17:23:01 2019 +0000
+
+    Fixed Buttons not working and added dropdown elements
+
+commit dcec144467d813693efb72f17275690f1520e10d
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 8 16:15:21 2019 +0000
+
+    revert
+
+commit 66114503124875a50d883b6c7af180d50bebf94c
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 8 16:12:42 2019 +0000
+
+    Revert "revert changes"
+    
+    This reverts commit 54153942f8d5ac0ac7b9b9094472a301e8b2f735.
+
+commit 54153942f8d5ac0ac7b9b9094472a301e8b2f735
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 8 16:12:16 2019 +0000
+
+    revert changes
+
+commit db571cd11d4beed13ccc4872358bff6fdbf660e3
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 8 16:04:44 2019 +0000
+
+    Revert "Statistics (alpha)"
+    
+    This reverts commit 1ba9b2b33b937160f13c0707993b3e9b9475b21b.
+
+commit 4ca8d14b26c183818963c13a34591f06255c0263
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Fri Mar 8 14:43:28 2019 +0000
+
+    Created base for changing panes
+
+commit 1ba9b2b33b937160f13c0707993b3e9b9475b21b
+Author: Zard, William (k1759509) <william.zard@kcl.ac.uk>
+Date:   Wed Mar 6 19:47:18 2019 +0000
+
+    Statistics (alpha)
+    
+    Review the code, (Discuss if the methods created are the best way)
+    Need to add other two statistics.
+    Double check if we need to make up four other statistics.
+
+commit 0349fd51d1d8397d6a5dbf02cec82d6348395283
+Author: Zard, William (k1759509) <william.zard@kcl.ac.uk>
+Date:   Tue Mar 5 17:26:23 2019 +0000
+
+    removal
+    
+    Committed to wrong location
+
+commit f81b46154b65049c4aff2a2e4eebb0512174aba8
+Author: Zard, William (k1759509) <william.zard@kcl.ac.uk>
+Date:   Tue Mar 5 17:26:05 2019 +0000
+
+    removal
+    
+    Committed to wrong location
+
+commit 6480db9475fc4f5291200b5f75f1a5493716dbec
+Author: Zard, William (k1759509) <william.zard@kcl.ac.uk>
+Date:   Tue Mar 5 17:25:47 2019 +0000
+
+    removal
+    
+    Committed to wrong location
+
+commit 56b07d9addcf6543cf3036aa3dc6eca2c8db826a
+Author: Zard, William (k1759509) <william.zard@kcl.ac.uk>
+Date:   Tue Mar 5 17:24:38 2019 +0000
+
+    Statistics base stage
+    
+    Need to add specific functionality to the buttons.
+    Need to add 4 more buttons and a next button (8 statistics)
+
+commit 055edfca5f1180f8a33ecdaef2f137fdf6a47816
+Author: Zard, William (k1759509) <william.zard@kcl.ac.uk>
+Date:   Tue Mar 5 17:22:51 2019 +0000
+
+    Statistics base stage
+    
+    need to add the functions of each buttons
+    add 4 more buttons (8 statistics)
+
+commit 941d57384be6b7966aeedbbb061c367df4da741d
+Author: Vachhani, Jay (k1890728) <jay.vachhani@kcl.ac.uk>
+Date:   Mon Mar 4 17:06:57 2019 +0000
+
+    Base Stage for the GUI
+    
+    Created base layout for the interface
+
+commit 1070724d2fc5678b8dfb7afdda947156b01868a7
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 4 01:54:51 2019 +0000
+
+    Importing Libraries to eclipse
+
+commit 336ae253997bb9c21b17ca0ac5f8e71e20d94ea3
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 4 01:23:37 2019 +0000
+
+    Test Commit
+
+commit 8a8afb14f6eb620cf3be455db263c44edfb5e63a
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 4 01:18:53 2019 +0000
+
+    Update .DS_Store
+
+commit acd2d07b0f75e21d7f87a2b255508d2abd015ffd
+Author: Kenneth <kenneth.kreindler@bluewin.ch>
+Date:   Mon Mar 4 01:18:00 2019 +0000
+
+    Initial commit

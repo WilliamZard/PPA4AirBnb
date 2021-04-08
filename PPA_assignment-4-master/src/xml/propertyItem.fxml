@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="nameLbl" layoutX="33.0" layoutY="25.0" text="Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="neighborhoodLbl" layoutX="32.0" layoutY="68.0" text="neighborhood" />
+      <CheckBox fx:id="favoriteCheckBox" layoutX="419.0" layoutY="364.0" mnemonicParsing="false" text="Favorite" />
+      <WebView fx:id="webView" layoutX="374.0" layoutY="187.0" prefHeight="153.0" prefWidth="163.0" />
+      <GridPane layoutX="180.0" layoutY="106.0" prefHeight="113.0" prefWidth="112.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="70.0" minHeight="0.0" prefHeight="52.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="92.0" minHeight="0.0" prefHeight="19.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="priceLbl" text="Price" textAlignment="CENTER" wrapText="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <ImageView fitHeight="59.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../img/card.png" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+      <GridPane layoutX="50.0" layoutY="106.0" prefHeight="113.0" prefWidth="112.0">
+         <children>
+            <ImageView fitHeight="59.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../img/house.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="typeLbl" text="Type" wrapText="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="70.0" minHeight="0.0" prefHeight="52.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="92.0" minHeight="0.0" prefHeight="19.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <GridPane layoutX="180.0" layoutY="239.0" prefHeight="140.0" prefWidth="112.0">
+         <children>
+            <ImageView fitHeight="59.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../img/reviews.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="reviewLbl" text="Review" textAlignment="CENTER" wrapText="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="70.0" minHeight="0.0" prefHeight="52.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="92.0" minHeight="0.0" prefHeight="19.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <GridPane layoutX="50.0" layoutY="239.0" prefHeight="113.0" prefWidth="112.0">
+         <children>
+            <ImageView fitHeight="59.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../img/person.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="hostLbl" text="Host" textAlignment="CENTER" wrapText="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="70.0" minHeight="0.0" prefHeight="52.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="92.0" minHeight="0.0" prefHeight="19.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <Button fx:id="bookBtn" layoutX="507.0" layoutY="359.0" mnemonicParsing="false" text="Book This" />
+      <WebView fx:id="propertyImage" layoutX="374.0" layoutY="68.0" prefHeight="105.0" prefWidth="163.0" />
+   </children>
+</AnchorPane>

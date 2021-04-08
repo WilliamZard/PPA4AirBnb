@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0">
+         <center>
+            <AnchorPane fx:id="mainAnchor" prefHeight="200.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane layoutX="25.0" layoutY="25.0" prefHeight="470.0" prefWidth="950.0" style="-fx-background-color: #efefef;">
+                     <children>
+                        <ImageView fitHeight="470.0" fitWidth="950.0" opacity="0.07" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/background.png" />
+                           </image>
+                        </ImageView>
+                        <BorderPane fx:id="variablePane" prefHeight="470.0" prefWidth="950.0">
+                           <center>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView id="userImg" fx:id="userImg" fitHeight="200.0" fitWidth="190.0" layoutX="83.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../img/blank_profile.png" />
+                                       </image></ImageView>
+                                    <GridPane layoutX="428.0" layoutY="92.0" prefHeight="192.0" prefWidth="440.0">
+                                      <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="166.0" minWidth="85.0" prefWidth="85.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="397.0" minWidth="235.0" prefWidth="235.0" />
+                                          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="257.0" minWidth="10.0" prefWidth="238.0" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                        <RowConstraints minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <Label text="Full name:">
+                                             <GridPane.margin>
+                                                <Insets left="10.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Label text="Username:" GridPane.rowIndex="1">
+                                             <GridPane.margin>
+                                                <Insets left="10.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Label text="Password:" GridPane.rowIndex="2">
+                                             <GridPane.margin>
+                                                <Insets left="10.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Label id="nameLabel" fx:id="nameLabel" text="name" GridPane.columnIndex="1">
+                                             <GridPane.margin>
+                                                <Insets left="10.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Label id="usernameLabel" fx:id="usernameLabel" text="username" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                             <GridPane.margin>
+                                                <Insets left="10.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Label text="Address:" GridPane.rowIndex="4">
+                                             <GridPane.margin>
+                                                <Insets left="10.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <PasswordField id="newPass" fx:id="newPass" promptText="new password" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                             <GridPane.margin>
+                                                <Insets left="10.0" right="10.0" />
+                                             </GridPane.margin>
+                                          </PasswordField>
+                                          <PasswordField id="confPass" fx:id="confPass" promptText="confirm new password" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                             <GridPane.margin>
+                                                <Insets left="10.0" right="10.0" />
+                                             </GridPane.margin>
+                                          </PasswordField>
+                                          <Label id="addressLabel" fx:id="addressLabel" text="No address added." GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                             <GridPane.margin>
+                                                <Insets left="10.0" right="10.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Button id="changeAddress" fx:id="changeAddress" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#updateAddress" text="Change" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                                          <Button id="savePass" fx:id="savePass" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#updatePass" text="Save" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                                       </children>
+                                    </GridPane>
+                                    <Button id="uploadImg" fx:id="uploadImg" layoutX="147.0" layoutY="279.0" mnemonicParsing="false" onMouseClicked="#updateImg" text="Upload" />
+                                 </children>
+                              </AnchorPane>
+                           </center></BorderPane>
+                     </children>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Pane>
+               </children>
+            </AnchorPane>
+         </center>
+         <top>
+            <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <items>
+                  <GridPane prefHeight="0.0" prefWidth="965.0">
+                     <children>
+                        <GridPane prefHeight="23.0" prefWidth="144.0" GridPane.columnIndex="5">
+                           <children>
+                              <MenuButton fx:id="dropdownMenu" mnemonicParsing="false" text="Actions" GridPane.halignment="RIGHT">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                    <MenuItem mnemonicParsing="false" text="Action 2" />
+                                 </items>
+                              </MenuButton>
+                              <Circle fx:id="userCircle" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="LEFT" />
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="80.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                        <Button fx:id="filtersBtn" mnemonicParsing="false" prefHeight="27.0" prefWidth="110.0" text="Filters" GridPane.columnIndex="1" />
+                     </children>
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="182.0" minWidth="10.0" prefWidth="46.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="182.0" minWidth="0.0" prefWidth="141.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="284.0" minWidth="10.0" prefWidth="69.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="458.0" minWidth="10.0" prefWidth="50.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="587.0" minWidth="10.0" prefWidth="542.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="193.0" minWidth="10.0" prefWidth="133.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+               </items>
+            </ToolBar>
+         </top>
+         <bottom>
+            <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <items>
+                  <GridPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="0.0" prefWidth="983.0">
+                     <children>
+                        <ImageView id="leftbtn" fx:id="prev" fitHeight="150.0" fitWidth="20.0" onMouseClicked="#prev" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/prev.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView id="rightbtn" fx:id="next" fitHeight="150.0" fitWidth="20.0" onMouseClicked="#next" opacity="0.7" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="RIGHT">
+                           <image>
+                              <Image url="@../img/next.png" />
+                           </image>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </ImageView>
+                        <GridPane GridPane.columnIndex="1">
+                           <children>
+                              <ImageView fx:id="mapBtn" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+                                 <image>
+                                    <Image url="@../img/map.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="listBtn" fitHeight="34.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                                 <image>
+                                    <Image url="@../img/list.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                     </children>
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="490.0" minWidth="253.0" prefWidth="367.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="490.0" minWidth="67.0" prefWidth="241.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="913.0" minWidth="186.0" prefWidth="368.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+               </items>
+            </ToolBar>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

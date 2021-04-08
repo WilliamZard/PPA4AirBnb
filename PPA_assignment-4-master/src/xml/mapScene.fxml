@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="600.0" prefWidth="900.0" stylesheets="@../PPA_assignment-4/src/style/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mapController">
+  <children>
+    <MenuBar stylesheets="@../PPA_assignment-4/src/style/style.css" VBox.vgrow="NEVER" />
+    <SplitPane focusTraversable="true" prefHeight="-1.0" prefWidth="-1.0" stylesheets="@../PPA_assignment-4/src/style/style.css" VBox.vgrow="ALWAYS">
+      <items>
+        <AnchorPane stylesheets="@../PPA_assignment-4/src/style/style.css">
+          <children>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" minWidth="60.0" prefHeight="27.0" prefWidth="86.0" style="&#10;" text="Locations" textAlignment="CENTER" wrapText="false">
+              <font>
+                <Font size="18.0" fx:id="x1" />
+              </font>
+              <textFill>
+                <Color blue="0.624" green="0.624" red="0.624" fx:id="x2" />
+              </textFill>
+            </Label>
+                  <Pane prefHeight="560.0" prefWidth="898.4" stylesheets="@../PPA_assignment-4/src/style/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Button id="enfield" layoutX="406.0" layoutY="41.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Enfield" textAlignment="CENTER" />
+                        <Button id="islington" layoutX="407.0" layoutY="161.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Islington" textAlignment="CENTER" />
+                        <Button id="hackney" layoutX="484.0" layoutY="161.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Hackney" textAlignment="CENTER" />
+                        <Button id="camden" layoutX="330.0" layoutY="161.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Camden" textAlignment="CENTER" />
+                        <Button id="waltham" layoutX="445.0" layoutY="101.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Waltham" textAlignment="CENTER" />
+                        <Button id="barnet" layoutX="291.0" layoutY="101.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Barnet" textAlignment="CENTER" />
+                        <Button id="haringey" layoutX="368.0" layoutY="101.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Haringey" textAlignment="CENTER" />
+                        <Button id="brent" layoutX="253.0" layoutY="161.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Brent Cross" textAlignment="CENTER" />
+                        <Button id="harrow" layoutX="176.0" layoutY="161.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Harrow" textAlignment="CENTER" />
+                        <Button id="ealing" layoutX="215.0" layoutY="221.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Ealing" textAlignment="CENTER" />
+                        <Button id="kensington" layoutX="292.0" layoutY="221.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Kensington" textAlignment="CENTER" />
+                        <Button id="westminster" layoutX="369.0" layoutY="221.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Westminster" textAlignment="CENTER" />
+                        <Button id="newham" layoutX="523.0" layoutY="221.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Newham" textAlignment="CENTER" />
+                        <Button id="havering" layoutX="638.0" layoutY="161.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Havering" textAlignment="CENTER" />
+                        <Button id="redbridge" layoutX="561.0" layoutY="161.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Redbridge" textAlignment="CENTER" />
+                        <Button id="barking" layoutX="600.0" layoutY="221.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Barking" textAlignment="CENTER" />
+                        <Button id="hillingdon" layoutX="138.0" layoutY="221.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Hillingdon" textAlignment="CENTER" />
+                        <Button id="hounslow" layoutX="177.0" layoutY="280.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Hounslow" textAlignment="CENTER" />
+                        <Button id="hammersmith" layoutX="254.0" layoutY="280.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Hammersmith" textAlignment="CENTER" />
+                        <Button id="wandsworth" layoutX="331.0" layoutY="280.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Wandsworth" textAlignment="CENTER" />
+                        <Button id="city" layoutX="408.0" layoutY="280.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="City" textAlignment="CENTER" />
+                        <Button id="greenwich" layoutX="485.0" layoutY="280.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Greenwich" textAlignment="CENTER" />
+                        <Button id="bexley" layoutX="562.0" layoutY="280.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Bexley" textAlignment="CENTER" />
+                        <Button id="richmond" layoutX="215.0" layoutY="339.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Richmond" textAlignment="CENTER" />
+                        <Button id="merton" layoutX="292.0" layoutY="339.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Merton" textAlignment="CENTER" />
+                        <Button id="lambeth" layoutX="369.0" layoutY="339.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Lambeth" textAlignment="CENTER" />
+                        <Button id="southwark" layoutX="446.0" layoutY="339.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Southwark" textAlignment="CENTER" />
+                        <Button id="lewisham" layoutX="523.0" layoutY="339.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Lewisham" textAlignment="CENTER" />
+                        <Button id="kingston" layoutX="254.0" layoutY="399.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Kingston" textAlignment="CENTER" />
+                        <Button id="sutton" layoutX="331.0" layoutY="399.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Sutton" textAlignment="CENTER" />
+                        <Button id="croydon" layoutX="408.0" layoutY="399.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Croydon" textAlignment="CENTER" />
+                        <Button id="bromley" layoutX="485.0" layoutY="399.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Bromley " textAlignment="CENTER" />
+                        <Button id="tower" layoutX="446.0" layoutY="221.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Tower Hamlets" textAlignment="CENTER" />
+                     </children>
+                  </Pane>
+          </children>
+        </AnchorPane>
+      </items>
+    </SplitPane>
+    <HBox id="HBox" alignment="CENTER_LEFT" spacing="5.0" VBox.vgrow="NEVER">
+      <children>
+        <Pane prefHeight="-1.0" prefWidth="-1.0" HBox.hgrow="ALWAYS" />
+      </children>
+      <padding>
+        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+      </padding>
+    </HBox>
+  </children>
+</VBox>

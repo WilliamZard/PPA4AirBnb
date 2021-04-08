@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="225.0" prefWidth="384.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FiltersController">
+   <children>
+      <AnchorPane layoutX="4.0" layoutY="5.0" prefHeight="221.0" prefWidth="368.0">
+         <children>
+            <Label layoutX="32.0" layoutY="36.0" text="Price:" />
+            <ComboBox id="priceDropdown" fx:id="maxPrice" layoutX="244.0" layoutY="31.0" prefHeight="27.0" prefWidth="101.0" promptText="Please select" />
+            <Label layoutX="211.0" layoutY="36.0" text="To:" />
+            <ComboBox id="priceDropdown" fx:id="minPrice" layoutX="89.0" layoutY="31.0" prefHeight="28.0" prefWidth="101.0" promptText="Please select" />
+            <Label layoutX="32.0" layoutY="106.0" text="Nights:" />
+            <ComboBox id="numberNights" fx:id="numberNights" layoutX="89.0" layoutY="101.0" prefHeight="28.0" prefWidth="62.0" promptText="Please select" />
+            <Label layoutX="166.0" layoutY="108.0" text="Room:" />
+            <ComboBox id="priceDropdown" fx:id="roomType" layoutX="219.0" layoutY="102.0" prefHeight="27.0" prefWidth="127.0" promptText="Please select" />
+            <GridPane alignment="CENTER" layoutX="84.0" layoutY="167.0">
+              <columnConstraints>
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="applyFilter" maxWidth="80.0" minWidth="80.0" mnemonicParsing="false" prefWidth="80.0" text="OK" />
+                  <Button fx:id="close" maxWidth="80.0" minWidth="80.0" mnemonicParsing="false" prefWidth="80.0" text="Close" GridPane.columnIndex="1" />
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

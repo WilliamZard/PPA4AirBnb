@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0">
+         <center>
+            <AnchorPane fx:id="mainAnchor" prefHeight="200.0" prefWidth="500.0" style="-fx-background-color: #ecf0f1;" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane layoutX="25.0" layoutY="25.0" prefHeight="470.0" prefWidth="950.0" style="-fx-background-color: #efefef;">
+                     <children>
+                        <BorderPane fx:id="variablePane" prefHeight="470.0" prefWidth="950.0">
+                           <top>
+                              <VBox prefHeight="470.0" prefWidth="950.0" stylesheets="@../PPA_assignment-4/src/style/style.css" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <MenuBar stylesheets="@../PPA_assignment-4/src/style/style.css" VBox.vgrow="NEVER" />
+                                    <SplitPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="-1.0" prefWidth="-1.0" stylesheets="@../PPA_assignment-4/src/style/style.css" VBox.vgrow="ALWAYS">
+                                       <items>
+                                          <AnchorPane prefHeight="470.0" prefWidth="950.0" stylesheets="@../PPA_assignment-4/src/style/style.css">
+                                             <children>
+                                                <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" minWidth="60.0" prefHeight="27.0" prefWidth="86.0" style="&#10;" text="London" textAlignment="CENTER" wrapText="false">
+                                                   <font>
+                                                      <Font size="18.0" fx:id="x1" />
+                                                   </font>
+                                                   <textFill>
+                                                      <Color blue="0.624" green="0.624" red="0.624" fx:id="x2" />
+                                                   </textFill>
+                                                </Label>
+                                                <Pane layoutX="-2.0" prefHeight="470.0" prefWidth="950.0" stylesheets="@../PPA_assignment-4/src/style/style.css" AnchorPane.bottomAnchor="-9.0" AnchorPane.leftAnchor="-2.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="0.0">
+                                                   <children>
+                                                      <ImageView fitHeight="470.0" fitWidth="950.0" opacity="0.07" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@../img/background.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Button fx:id="enfield" layoutX="355.0" layoutY="8.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Enfield" textAlignment="CENTER" />
+                                                      <Button fx:id="islington" layoutX="355.0" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Islington" textAlignment="CENTER" />
+                                                      <Button fx:id="hackney" layoutX="439.0" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Hackney" textAlignment="CENTER" />
+                                                      <Button fx:id="camden" layoutX="270.0" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Camden" textAlignment="CENTER" />
+                                                      <Button fx:id="waltham" layoutX="398.0" layoutY="71.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Waltham" textAlignment="CENTER" />
+                                                      <Button fx:id="barnet" layoutX="226.0" layoutY="71.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Barnet" textAlignment="CENTER" />
+                                                      <Button fx:id="haringey" layoutX="312.0" layoutY="71.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Haringey" textAlignment="CENTER" />
+                                                      <Button fx:id="brent" layoutX="184.0" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Brent Cross" textAlignment="CENTER" />
+                                                      <Button fx:id="harrow" layoutX="99.0" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Harrow" textAlignment="CENTER" />
+                                                      <Button fx:id="ealing" layoutX="142.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Ealing" textAlignment="CENTER" />
+                                                      <Button fx:id="kensington" layoutX="226.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Kensington" textAlignment="CENTER" />
+                                                      <Button fx:id="westminster" layoutX="312.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Westminster" textAlignment="CENTER" />
+                                                      <Button fx:id="newham" layoutX="481.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Newham" textAlignment="CENTER" />
+                                                      <Button fx:id="havering" layoutX="609.0" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Havering" textAlignment="CENTER" />
+                                                      <Button fx:id="redbridge" layoutX="524.0" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Redbridge" textAlignment="CENTER" />
+                                                      <Button fx:id="barking" layoutX="565.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Barking" textAlignment="CENTER" />
+                                                      <Button fx:id="hillingdon" layoutX="57.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Hillingdon" textAlignment="CENTER" />
+                                                      <Button fx:id="hounslow" layoutX="99.0" layoutY="260.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Hounslow" textAlignment="CENTER" />
+                                                      <Button fx:id="hammersmith" layoutX="184.0" layoutY="260.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Hammersmith" textAlignment="CENTER" />
+                                                      <Button fx:id="wandsworth" layoutX="270.0" layoutY="260.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Wandsworth" textAlignment="CENTER" />
+                                                      <Button fx:id="city" layoutX="355.0" layoutY="260.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="City of London" textAlignment="CENTER" />
+                                                      <Button fx:id="greenwich" layoutX="439.0" layoutY="260.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Greenwich" textAlignment="CENTER" />
+                                                      <Button fx:id="bexley" layoutX="524.0" layoutY="260.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Bexley" textAlignment="CENTER" />
+                                                      <Button fx:id="richmond" layoutX="142.0" layoutY="323.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Richmond" textAlignment="CENTER" />
+                                                      <Button fx:id="merton" layoutX="226.0" layoutY="323.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Merton" textAlignment="CENTER" />
+                                                      <Button fx:id="lambeth" layoutX="312.0" layoutY="323.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Lambeth" textAlignment="CENTER" />
+                                                      <Button fx:id="southwark" layoutX="398.0" layoutY="323.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Southwark" textAlignment="CENTER" />
+                                                      <Button fx:id="lewisham" layoutX="481.0" layoutY="323.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Lewisham" textAlignment="CENTER" />
+                                                      <Button fx:id="kingston" layoutX="184.0" layoutY="386.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Kingston" textAlignment="CENTER" />
+                                                      <Button fx:id="sutton" layoutX="270.0" layoutY="386.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Sutton" textAlignment="CENTER" />
+                                                      <Button fx:id="croydon" layoutX="355.0" layoutY="386.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Croydon" textAlignment="CENTER" />
+                                                      <Button fx:id="bromley" layoutX="439.0" layoutY="386.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Bromley " textAlignment="CENTER" />
+                                                      <Button fx:id="tower" layoutX="398.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="77.0" prefWidth="77.0" styleClass="map-button" stylesheets="@../PPA_assignment-4/src/style/style.css" text="Tower Hamlets" textAlignment="CENTER" />
+                                                      <Text layoutX="648.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to the London Property Viewer" />
+                                                      <Text layoutX="648.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Once you apply the filter, the colours" />
+                                                      <Text layoutX="648.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="of the neighbourhoods indicate where " />
+                                                      <Text layoutX="648.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="properties in your filter range are concentrated." />
+                                                      <Text layoutX="648.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click on a neighbourhood to see the" />
+                                                      <Text layoutX="648.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="available properties." />
+                                                      <ImageView fx:id="filterBlock" fitHeight="470.0" fitWidth="950.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@../img/filterApply.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                   </children>
+                                                </Pane>
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                    <HBox id="HBox" alignment="CENTER_LEFT" spacing="5.0" VBox.vgrow="NEVER">
+                                       <children>
+                                          <Pane prefHeight="-1.0" prefWidth="-1.0" HBox.hgrow="ALWAYS" />
+                                       </children>
+                                       <padding>
+                                          <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                                       </padding>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </top></BorderPane>
+                     </children>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Pane>
+               </children></AnchorPane>
+         </center>
+         <top>
+            <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <items>
+                  <GridPane prefHeight="0.0" prefWidth="965.0">
+                     <children>
+                        <GridPane prefHeight="23.0" prefWidth="144.0" GridPane.columnIndex="5">
+                           <children>
+                              <MenuButton fx:id="dropdownMenu" mnemonicParsing="false" text="Actions" GridPane.halignment="RIGHT">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                    <MenuItem mnemonicParsing="false" text="Action 2" />
+                                 </items>
+                              </MenuButton>
+                              <Circle fx:id="userCircle" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="LEFT" />
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="80.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                        <Button fx:id="filtersBtn" mnemonicParsing="false" prefHeight="27.0" prefWidth="110.0" text="Filters" GridPane.columnIndex="1" />
+                     </children>
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="182.0" minWidth="10.0" prefWidth="46.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="182.0" minWidth="0.0" prefWidth="141.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="284.0" minWidth="10.0" prefWidth="69.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="458.0" minWidth="10.0" prefWidth="50.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="587.0" minWidth="10.0" prefWidth="542.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="193.0" minWidth="10.0" prefWidth="133.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+               </items>
+            </ToolBar>
+         </top>
+         <bottom>
+            <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <items>
+                  <GridPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="0.0" prefWidth="983.0">
+                     <children>
+                        <ImageView id="leftbtn" fx:id="prev" fitHeight="150.0" fitWidth="20.0" onMouseClicked="#prev" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/prev.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView id="rightbtn" fx:id="next" fitHeight="150.0" fitWidth="20.0" onMouseClicked="#next" opacity="0.7" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="RIGHT">
+                           <image>
+                              <Image url="@../img/next.png" />
+                           </image>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </ImageView>
+                        <GridPane GridPane.columnIndex="1">
+                           <children>
+                              <ImageView fx:id="mapBtn" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+                                 <image>
+                                    <Image url="@../img/map.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="listBtn" fitHeight="34.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                                 <image>
+                                    <Image url="@../img/list.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                     </children>
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="490.0" minWidth="253.0" prefWidth="367.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="490.0" minWidth="67.0" prefWidth="241.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="913.0" minWidth="186.0" prefWidth="368.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+               </items>
+            </ToolBar>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

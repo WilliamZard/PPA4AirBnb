@@ -1,0 +1,29 @@
+/*
+ * This is an adjustment of the original modena.css for a consistent dark theme.
+ * Original modena.css here: https://gist.github.com/maxd/63691840fc372f22f470.
+ */
+
+/* Redefine base colors */
+
+.check-box>.box {
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+  }
+  
+  .check-box>.box>.mark {
+    -fx-background-image: url("img/next.png");
+    -fx-background-position: center;
+    -fx-background-repeat: stretch;
+    -fx-shape: none;
+  }
+  
+  .check-box:selected>.box>.mark{
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/prev.png");
+  }
+  .map-button{
+	-fx-shape: "M43.30127018922193 0L86.60254037844386 25L86.60254037844386         75L43.30127018922193 100L0 75L0 25Z";
+	-fx-font-size: 8pt;
+	-fx-text-fill: black;
+  }
